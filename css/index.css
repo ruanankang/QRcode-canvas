@@ -1,0 +1,84 @@
+body {
+	background-color: #eee;
+	height: 790px;
+	font-family: "苹方";
+	color: #333;
+}
+input, button {
+	padding: 0;
+	border: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+.clearfix {
+    *zoom: 1
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+
+.main {
+	width: 1400px;
+	height: 750px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin: 100px auto 0;
+	padding: 30px 50px;
+	display: flex;
+}
+.header {
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.menu {
+	width: 185px;
+	height: 530px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	overflow-y: auto;
+	float: left;
+	flex: 1;
+}
+.menu .toolBoxItem {
+	height: 30px;
+	width: 90%;
+	margin: 0 auto 10px;
+	padding-left: 10px;
+	background-color: #c2ecff;
+	border-radius: 2px; 
+	line-height: 30px;
+	font-size: 14px;
+}
+.menu .toolBoxItem:last-child {
+	margin-bottom: 0;
+}
+.canvas {
+	width: 1100px;
+	height: 530px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-left: 15px;
+	float: left;
+	flex: 5;
+}
